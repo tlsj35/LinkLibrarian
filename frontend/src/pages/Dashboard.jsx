@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 const API_URL =
-  "http://linklibrarian-backend-env.eba-fnyxdkdp.us-west-2.elasticbeanstalk.com";
+  "https://linklibrarian-backend-env.eba-fnyxdkdp.us-west-2.elasticbeanstalk.com";
 
 export default function Dashboard() {
   const [links, setLinks] = useState([]);

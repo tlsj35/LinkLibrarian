@@ -12,7 +12,7 @@ export default function Register() {
 
     try {
       await axios.post(
-        "http://linklibrarian-backend-env.eba-fnyxdkdp.us-west-2.elasticbeanstalk.com/register",
+        "https://linklibrarian-backend-env.eba-fnyxdkdp.us-west-2.elasticbeanstalk.com/register",
         { email, password },
         { withCredentials: true }
       );

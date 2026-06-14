@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
-const API_URL = "http://linklibrarian-backend-env.eba-fnyxdkdp.us-west-2.elasticbeanstalk.com";
+const API_URL = "https://linklibrarian-backend-env.eba-fnyxdkdp.us-west-2.elasticbeanstalk.com";
 
 export default function Login() {
   const [email, setEmail] = useState("");
