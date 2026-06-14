@@ -1,0 +1,8 @@
+Master Username
+admin
+
+Master Password
+CS233Projects!
+
+Endpoint
+link-librarian-db.chge084ewxez.us-west-2.rds.amazonaws.com

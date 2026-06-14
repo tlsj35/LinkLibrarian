@@ -1,0 +1,145 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  color: #2f2f2f;
+}
+
+body {
+  margin: 0;
+  background: #f4efe6;
+  color: #2f2f2f;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 20%, #d9a441 0 90px, transparent 91px),
+    radial-gradient(circle at 90% 15%, #4f6d5d 0 70px, transparent 71px),
+    #f4efe6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3f4a3c;
+  color: #f4efe6;
+  padding: 1rem 3rem;
+}
+
+.logo {
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+}
+
+.nav-links a,
+.nav-links button {
+  margin-left: 1rem;
+  color: #f4efe6;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page {
+  padding: 3rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  color: #2f4f4f;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  max-width: 600px;
+  color: #6d5f50;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 950px;
+  margin-top: 2rem;
+}
+
+.link-card {
+  background: #fffaf1;
+  border-left: 10px solid #c46a3a;
+  padding: 1.5rem;
+  border-radius: 18px 4px 18px 4px;
+  box-shadow: 0 8px 20px rgba(60, 45, 30, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(60, 45, 30, 0.22);
+}
+
+.link-card h2 {
+  margin-top: 0;
+  color: #4f6d5d;
+  font-weight: normal;
+}
+
+.link-card a {
+  color: #a0522d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.notes {
+  line-height: 1.6;
+}
+
+.tag {
+  display: inline-block;
+  background: #d8c3a5;
+  color: #2f2f2f;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.form-card {
+  background: #fffaf1;
+  max-width: 420px;
+  padding: 2rem;
+  border-radius: 18px 4px 18px 4px;
+  box-shadow: 0 8px 20px rgba(60, 45, 30, 0.15);
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 2px solid #d8c3a5;
+  border-radius: 10px;
+  background: #fdf8ee;
+  font: inherit;
+}
+
+button {
+  background: #c46a3a;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+}
+
+button:hover {
+  background: #a0522d;
+}
