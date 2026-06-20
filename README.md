@@ -23,14 +23,14 @@ Tech Stack
 
 How to Install
 Backend:
-> cd backend
-> npm install
-> node server.js
+-cd backend
+-npm install
+-node server.js
 
 Frontend:
-> cd frontend
-> npm install
-> npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
 Testing:
-> npm test
+-npm test
